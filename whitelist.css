@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg {
+  background-image: url("background-w.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  letter-spacing: 0.075em;
+  text-align: center;
+}
+.image-cropper {
+  width: 186px;
+  height: 100px;
+  position: relative;
+  margin: 20px auto -10px;
+}
+.image-cropper img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+h2 {
+  color:#153311;
+  background-color:#D2F0CD;
+  border-radius: 20px;
+  padding: 5px 2px 5px 2px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: auto;
+  max-width: 130px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.links {
+  width: 100%;
+  max-width: 414px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.links .link {
+  display: block;
+  width: 100%;
+  margin: 0 auto 10px;
+  color: #fff;
+  background-color: #057bc2;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 0;
+}
+.links .link:hover {
+  color: #fff;
+  background-color: #35c5fd;
+}
